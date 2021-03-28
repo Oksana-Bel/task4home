@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import pageobject.StudentRegistrationFormPage;
 
 public class StudentRegistrationFormTests {
-    //создание экземпляра объекта  StudentRegistrationFormPage
+
     StudentRegistrationFormPage studentRegistrationFormPage = new StudentRegistrationFormPage();
 
     @BeforeAll
