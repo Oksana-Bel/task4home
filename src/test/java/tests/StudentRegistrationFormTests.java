@@ -11,14 +11,14 @@ public class StudentRegistrationFormTests {
     StudentRegistrationFormPage studentRegistrationFormPage = new StudentRegistrationFormPage();
 
     @BeforeAll
-    static void setup(){
-        Configuration.startMaximized=true;
+    static void setup() {
+        Configuration.startMaximized = true;
     }
 
     @Test
-    void successfulFillFormTest(){
-        studentRegistrationFormPage.openPage();
-        studentRegistrationFormPage.fillForm();
-        studentRegistrationFormPage.checkData();
+    void successfulFillFormTest() {
+        studentRegistrationFormPage.openPage()
+                .fillForm()
+                .checkData();
     }
 }
